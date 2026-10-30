@@ -1,0 +1,34 @@
+		h2,h3{ color:yellow;background-color:red;text-align:center }
+		
+		.test1{
+			color:green;
+			background-color:pink;
+			text-align:right
+		}
+		
+		.upper{ text-transform:uppercase }
+		
+		.underline{ text-decoration: underline }
+		
+		#test2{
+			color:red;
+			background-color:pink;
+			text-align:left
+		}
+		
+		h4.test3{
+			background-color:red;
+			color:white
+		}
+		
+		.box{
+			width:200px;
+			height:100px;
+			background-color:blue;
+			color:white
+		}
+		
+		.box h5{
+			background-color:yellow;
+		}
+		
