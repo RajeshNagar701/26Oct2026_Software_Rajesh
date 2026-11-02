@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	
+	<!--
+	
+	padding : 4 side
+		
+	padding-left:
+	padding-right:
+	padding-top:
+	padding-bottom:	
+	
+	
+	
+	
+	=> our box not set after giving padding & Border
+	
+	21%      2%        2% = 29%   
+	width + padding + border 
+	
+	
+	box-sizing:border-box; is solution for it
+			
+	width + padding + border  = all combined & calclate inline
+	-->
+	
+	
+	<style>
+
+		*{
+			box-sizing:border-box;
+		}
+
+		.box1{
+			width:25%;
+			height:200px;
+			background-color:red;
+			float:left;
+			padding:20px;
+			border:solid 10px black;
+		}
+		
+		.box2{
+			width:25%;
+			height:200px;
+			background-color:green;
+			float:left;
+			padding:20px;
+			border:solid 10px black;
+		}
+		
+		
+		
+		/*  margin padding border all with box */
+		
+		.test{
+			width:25%;
+			float:left;
+			padding:20px;
+		}	
+		.test1{
+			background-color:red;
+			border:solid 10px black;
+			height:200px;
+			padding:20px;
+		}
+
+		
+		.test2{
+			background-color:green;
+			border:solid 10px black;
+			height:200px;
+			padding:20px;
+		}
+		
+		
+	</style>
+	
+</head>
+<body>
+ 
+	<div class="box1"> Hi i am Border Box</div>
+	<div class="box2"> Hi i am Border Box</div>
+	<div class="box1"> Hi i am Border Box</div>
+	<div class="box2"> Hi i am Border Box</div>
+	
+	<hr>
+	
+	
+	<div class="test">
+		<div class="test1"> Hi i am Border Box</div>
+	</div>
+	<div class="test">
+		<div class="test2"> Hi i am Border Box</div>
+	</div>
+	<div class="test">
+		<div class="test1"> Hi i am Border Box</div>
+	</div>
+	<div class="test">
+		<div class="test2"> Hi i am Border Box</div>
+	</div>
+	
+</body>
+</html>
